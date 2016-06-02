@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3EC451E9-A057-4E56-B9DF-34B027AB9F27}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="KellCommons, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\KellCommons2016-3-16备份\KellCommons\bin\Release\KellCommons.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module.cs" />
+    <Compile Include="Permission.cs" />
+    <Compile Include="PermissionType.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KellAdvertisingBar\KellAdvertisingBar.csproj">
+      <Project>{D92ECE49-1C81-43FA-97E5-E77F678BB857}</Project>
+      <Name>KellAdvertisingBar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellAdvertisingForm\KellAdvertisingForm.csproj">
+      <Project>{533FBDAB-8D4A-44FB-B0BF-DFDA027CDAD4}</Project>
+      <Name>KellAdvertisingForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellButton\KellButton.csproj">
+      <Project>{69DC07BF-5DBA-49E2-8634-F6AE85EEF2E4}</Project>
+      <Name>KellButton</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellCalendarEx\KellCalendarEx.csproj">
+      <Project>{D8F2311D-BADC-4035-B570-535CEE2931F5}</Project>
+      <Name>KellCalendarEx</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellCalendar\KellCalendar.csproj">
+      <Project>{87A11880-6982-4C4B-ADF5-2C61F504F175}</Project>
+      <Name>KellCalendar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellComboBox\KellComboBox.csproj">
+      <Project>{C92D8F6C-2D4B-4970-BCED-49C5AA5950C4}</Project>
+      <Name>KellComboBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellLinkComboBox\KellLinkComboBox.csproj">
+      <Project>{7377F2B3-040E-4040-B6CA-20908BD2E990}</Project>
+      <Name>KellLinkComboBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellMediaAdvertisingForm\KellMediaAdvertisingForm.csproj">
+      <Project>{5C08B57A-2E73-49D9-91B7-F58680E11C3C}</Project>
+      <Name>KellMediaAdvertisingForm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellNode\KellNode.csproj">
+      <Project>{56661C5B-CF85-46D8-A84C-AC397E1A85EA}</Project>
+      <Name>KellNode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellPermissionEditor\KellPermissionEditor.csproj">
+      <Project>{4395554D-AAB3-4F29-B696-9790BCD537B6}</Project>
+      <Name>KellPermissionEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellRecordEditor\KellRecordEditor.csproj">
+      <Project>{0E09930D-D2EE-4319-AD30-FA6F9F398E30}</Project>
+      <Name>KellRecordEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KellTable\KellTable.csproj">
+      <Project>{75042073-2B37-4E8C-A514-92B167AB388B}</Project>
+      <Name>KellTable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ListBoxSelecter\ListBoxSelecter.csproj">
+      <Project>{4D23CAB9-5B97-4260-B21B-56A5D18F7AAF}</Project>
+      <Name>ListBoxSelecter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoadingCircle\LoadingCircle.csproj">
+      <Project>{7E41A468-21B2-447F-A866-0680CECC62A4}</Project>
+      <Name>LoadingCircle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources\Resources.csproj">
+      <Project>{C2A075D4-BFBF-416D-831E-D110BB42E75E}</Project>
+      <Name>Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ValidataCode\ValidataCode.csproj">
+      <Project>{7CFF61A3-A20C-47FD-BEEE-5ED117492907}</Project>
+      <Name>ValidataCode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VistaCalendar\VistaCalendar.csproj">
+      <Project>{D3AB6209-4909-43B5-989E-11996FC7FC3F}</Project>
+      <Name>VistaCalendar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinFormPager\WinFormPager.csproj">
+      <Project>{B39F6E2F-207E-4D1A-B970-ABBCCA0AD82D}</Project>
+      <Name>WinFormPager</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

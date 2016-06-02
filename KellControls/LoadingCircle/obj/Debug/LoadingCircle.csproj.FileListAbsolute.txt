@@ -1,0 +1,8 @@
+D:\2011\KellControls\KellControls\LoadingCircle\bin\Debug\LoadingCircle.dll
+D:\2011\KellControls\KellControls\LoadingCircle\bin\Debug\LoadingCircle.pdb
+D:\2011\KellControls\KellControls\LoadingCircle\obj\Debug\ResolveAssemblyReference.cache
+D:\2011\KellControls\KellControls\LoadingCircle\obj\Debug\KellControls.FloatingCircleLoading.resources
+D:\2011\KellControls\KellControls\LoadingCircle\obj\Debug\GenerateResource.read.1.tlog
+D:\2011\KellControls\KellControls\LoadingCircle\obj\Debug\GenerateResource.write.1.tlog
+D:\2011\KellControls\KellControls\LoadingCircle\obj\Debug\LoadingCircle.dll
+D:\2011\KellControls\KellControls\LoadingCircle\obj\Debug\LoadingCircle.pdb

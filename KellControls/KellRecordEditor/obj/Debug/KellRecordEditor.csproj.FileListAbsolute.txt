@@ -1,0 +1,13 @@
+D:\2011\KellControls\KellControls\KellRecordEditor\bin\Debug\KellRecordEditor.dll
+D:\2011\KellControls\KellControls\KellRecordEditor\bin\Debug\KellRecordEditor.pdb
+D:\2011\KellControls\KellControls\KellRecordEditor\bin\Debug\KellTable.dll
+D:\2011\KellControls\KellControls\KellRecordEditor\bin\Debug\KellTable.pdb
+D:\2011\KellControls\KellControls\KellRecordEditor\obj\Debug\ResolveAssemblyReference.cache
+D:\2011\KellControls\KellControls\KellRecordEditor\obj\Debug\KellControls.ColorBox.resources
+D:\2011\KellControls\KellControls\KellRecordEditor\obj\Debug\KellControls.FieldInfoEditor.resources
+D:\2011\KellControls\KellControls\KellRecordEditor\obj\Debug\KellControls.ImageBox.resources
+D:\2011\KellControls\KellControls\KellRecordEditor\obj\Debug\KellControls.KellRecordEditor.resources
+D:\2011\KellControls\KellControls\KellRecordEditor\obj\Debug\GenerateResource.read.1.tlog
+D:\2011\KellControls\KellControls\KellRecordEditor\obj\Debug\GenerateResource.write.1.tlog
+D:\2011\KellControls\KellControls\KellRecordEditor\obj\Debug\KellRecordEditor.dll
+D:\2011\KellControls\KellControls\KellRecordEditor\obj\Debug\KellRecordEditor.pdb

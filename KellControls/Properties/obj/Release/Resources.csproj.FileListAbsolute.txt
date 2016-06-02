@@ -1,0 +1,27 @@
+D:\2011\KellControls\KellControls\Properties\bin\Release\Resources.dll
+D:\2011\KellControls\KellControls\Properties\bin\Release\Resources.pdb
+D:\2011\KellControls\KellControls\Properties\obj\Release\ResolveAssemblyReference.cache
+D:\2011\KellControls\KellControls\Properties\obj\Release\KellControls.Resources.Properties.Resources.resources
+D:\2011\KellControls\KellControls\Properties\obj\Release\GenerateResource.read.1.tlog
+D:\2011\KellControls\KellControls\Properties\obj\Release\GenerateResource.write.1.tlog
+D:\2011\KellControls\KellControls\Properties\obj\Release\Resources.dll
+D:\2011\KellControls\KellControls\Properties\obj\Release\Resources.pdb
+F:\2015 Backup\KellControls2012-1-12备份\KellControls\Properties\bin\Release\Resources.dll
+F:\2015 Backup\KellControls2012-1-12备份\KellControls\Properties\bin\Release\Resources.pdb
+F:\2015 Backup\KellControls2012-1-12备份\KellControls\Properties\obj\Release\Resources.csprojResolveAssemblyReference.cache
+F:\2015 Backup\KellControls2012-1-12备份\KellControls\Properties\obj\Release\KellControls.Resources.Properties.Resources.resources
+F:\2015 Backup\KellControls2012-1-12备份\KellControls\Properties\obj\Release\Resources.csproj.GenerateResource.Cache
+F:\2015 Backup\KellControls2012-1-12备份\KellControls\Properties\obj\Release\Resources.dll
+F:\2015 Backup\KellControls2012-1-12备份\KellControls\Properties\obj\Release\Resources.pdb
+E:\soft\KellControls2016-3-16备份\KellControls\Properties\bin\Release\Resources.dll
+E:\soft\KellControls2016-3-16备份\KellControls\Properties\bin\Release\Resources.pdb
+E:\soft\KellControls2016-3-16备份\KellControls\Properties\obj\Release\KellControls.Resources.Properties.Resources.resources
+E:\soft\KellControls2016-3-16备份\KellControls\Properties\obj\Release\Resources.csproj.GenerateResource.Cache
+E:\soft\KellControls2016-3-16备份\KellControls\Properties\obj\Release\Resources.dll
+E:\soft\KellControls2016-3-16备份\KellControls\Properties\obj\Release\Resources.pdb
+F:\2015 Backup\KellControls2016-3-16备份\KellControls\Properties\bin\Release\Resources.dll
+F:\2015 Backup\KellControls2016-3-16备份\KellControls\Properties\bin\Release\Resources.pdb
+F:\2015 Backup\KellControls2016-3-16备份\KellControls\Properties\obj\Release\KellControls.Resources.Properties.Resources.resources
+F:\2015 Backup\KellControls2016-3-16备份\KellControls\Properties\obj\Release\Resources.csproj.GenerateResource.Cache
+F:\2015 Backup\KellControls2016-3-16备份\KellControls\Properties\obj\Release\Resources.dll
+F:\2015 Backup\KellControls2016-3-16备份\KellControls\Properties\obj\Release\Resources.pdb

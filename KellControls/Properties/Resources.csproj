@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2A075D4-BFBF-416D-831E-D110BB42E75E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KellControls.Resources</RootNamespace>
+    <AssemblyName>Resources</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Skin\Calmness.ssk" />
+    <EmbeddedResource Include="Resources\Skin\CalmnessColor1.ssk" />
+    <EmbeddedResource Include="Resources\Skin\CalmnessColor2.ssk" />
+    <EmbeddedResource Include="Resources\Skin\DeepCyan.ssk" />
+    <EmbeddedResource Include="Resources\Skin\DeepGreen.ssk" />
+    <EmbeddedResource Include="Resources\Skin\DeepOrange.ssk" />
+    <EmbeddedResource Include="Resources\Skin\DiamondBlue.ssk" />
+    <EmbeddedResource Include="Resources\Skin\DiamondGreen.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Eighteen.ssk" />
+    <EmbeddedResource Include="Resources\Skin\EighteenColor1.ssk" />
+    <EmbeddedResource Include="Resources\Skin\EighteenColor2.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Emerald.ssk" />
+    <EmbeddedResource Include="Resources\Skin\EmeraldColor1.ssk" />
+    <EmbeddedResource Include="Resources\Skin\EmeraldColor2.ssk" />
+    <EmbeddedResource Include="Resources\Skin\EmeraldColor3.ssk" />
+    <EmbeddedResource Include="Resources\Skin\GlassBrown.ssk" />
+    <EmbeddedResource Include="Resources\Skin\GlassGreen.ssk" />
+    <EmbeddedResource Include="Resources\Skin\GlassOrange.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Longhorn.ssk" />
+    <EmbeddedResource Include="Resources\Skin\MacOS.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Midsummer.ssk" />
+    <EmbeddedResource Include="Resources\Skin\MidsummerColor1.ssk" />
+    <EmbeddedResource Include="Resources\Skin\MidsummerColor2.ssk" />
+    <EmbeddedResource Include="Resources\Skin\MidsummerColor3.ssk" />
+    <EmbeddedResource Include="Resources\Skin\MP10.ssk" />
+    <EmbeddedResource Include="Resources\Skin\MSN.ssk" />
+    <EmbeddedResource Include="Resources\Skin\OneBlue.ssk" />
+    <EmbeddedResource Include="Resources\Skin\OneCyan.ssk" />
+    <EmbeddedResource Include="Resources\Skin\OneGreen.ssk" />
+    <EmbeddedResource Include="Resources\Skin\OneOrange.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Page.ssk" />
+    <EmbeddedResource Include="Resources\Skin\PageColor1.ssk" />
+    <EmbeddedResource Include="Resources\Skin\PageColor2.ssk" />
+    <EmbeddedResource Include="Resources\Skin\RealOne.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Silver.ssk" />
+    <EmbeddedResource Include="Resources\Skin\SilverColor1.ssk" />
+    <EmbeddedResource Include="Resources\Skin\SilverColor2.ssk" />
+    <EmbeddedResource Include="Resources\Skin\SportsBlack.ssk" />
+    <EmbeddedResource Include="Resources\Skin\SportsBlue.ssk" />
+    <EmbeddedResource Include="Resources\Skin\SportsCyan.ssk" />
+    <EmbeddedResource Include="Resources\Skin\SportsGreen.ssk" />
+    <EmbeddedResource Include="Resources\Skin\SportsOrange.ssk" />
+    <EmbeddedResource Include="Resources\Skin\SteelBlack.ssk" />
+    <EmbeddedResource Include="Resources\Skin\SteelBlue.ssk" />
+    <EmbeddedResource Include="Resources\Skin\vista1.ssk" />
+    <EmbeddedResource Include="Resources\Skin\vista1_green.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Vista2_color1.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Vista2_color2.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Vista2_color3.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Vista2_color4.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Vista2_color5.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Vista2_color6.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Vista2_color7.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Warm.ssk" />
+    <EmbeddedResource Include="Resources\Skin\WarmColor1.ssk" />
+    <EmbeddedResource Include="Resources\Skin\WarmColor2.ssk" />
+    <EmbeddedResource Include="Resources\Skin\WarmColor3.ssk" />
+    <EmbeddedResource Include="Resources\Skin\Wave.ssk" />
+    <EmbeddedResource Include="Resources\Skin\WaveColor1.ssk" />
+    <EmbeddedResource Include="Resources\Skin\WaveColor2.ssk" />
+    <EmbeddedResource Include="Resources\Skin\XPBlue.ssk" />
+    <EmbeddedResource Include="Resources\Skin\XPGreen.ssk" />
+    <EmbeddedResource Include="Resources\Skin\XPOrange.ssk" />
+    <EmbeddedResource Include="Resources\Skin\XPSilver.ssk" />
+    <None Include="Resources\ValidateCode.ico" />
+    <None Include="Resources\resultset_previous.png" />
+    <None Include="Resources\resultset_next.png" />
+    <None Include="Resources\resultset_last.png" />
+    <None Include="Resources\resultset_first.png" />
+    <None Include="Resources\Pager.PageBg.png" />
+    <None Include="Resources\Pager.ico" />
+    <None Include="Resources\FeedTreeItem16.ico" />
+    <None Include="Resources\ExpandedFolderTreeItem16.ico" />
+    <None Include="Resources\CollapsedFolderTreeItem16.ico" />
+    <None Include="Resources\5.bmp" />
+    <None Include="Resources\4.bmp" />
+    <None Include="Resources\3.bmp" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Button\btndown.bmp" />
+    <EmbeddedResource Include="Resources\Button\btnfore.bmp" />
+    <EmbeddedResource Include="Resources\Button\btnnomal.bmp" />
+    <EmbeddedResource Include="Resources\Button\change1.bmp" />
+    <EmbeddedResource Include="Resources\Button\change2.bmp" />
+    <EmbeddedResource Include="Resources\Button\change3.bmp" />
+    <EmbeddedResource Include="Resources\Button\change4.bmp" />
+    <EmbeddedResource Include="Resources\Button\change5.bmp" />
+    <EmbeddedResource Include="Resources\Button\focus.bmp" />
+    <Content Include="Resources\Icon\Pager.ico" />
+    <Content Include="Resources\Icon\ValidateCode.ico" />
+    <EmbeddedResource Include="Resources\Images\prev_month_vs.bmp" />
+    <EmbeddedResource Include="Resources\Images\prev_year.bmp" />
+    <EmbeddedResource Include="Resources\Images\prev_year_disabled.bmp" />
+    <EmbeddedResource Include="Resources\Images\prev_year_vs.bmp" />
+    <Content Include="Resources\Images\Pager.PageBg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

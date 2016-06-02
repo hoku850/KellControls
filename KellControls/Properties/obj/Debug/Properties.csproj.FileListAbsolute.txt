@@ -1,0 +1,8 @@
+D:\2011\KellControls\KellControls\Properties\bin\Debug\Properties.dll
+D:\2011\KellControls\KellControls\Properties\bin\Debug\Properties.pdb
+D:\2011\KellControls\KellControls\Properties\obj\Debug\ResolveAssemblyReference.cache
+D:\2011\KellControls\KellControls\Properties\obj\Debug\Properties.Properties.Resources.resources
+D:\2011\KellControls\KellControls\Properties\obj\Debug\GenerateResource.read.1.tlog
+D:\2011\KellControls\KellControls\Properties\obj\Debug\GenerateResource.write.1.tlog
+D:\2011\KellControls\KellControls\Properties\obj\Debug\Properties.dll
+D:\2011\KellControls\KellControls\Properties\obj\Debug\Properties.pdb

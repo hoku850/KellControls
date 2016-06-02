@@ -1,0 +1,6 @@
+D:\2011\KellControls\KellControls\KellNode\obj\Debug\ResolveAssemblyReference.cache
+D:\2011\KellControls\KellControls\KellNode\obj\Debug\KellControl.TriStateTreeView.resources
+D:\2011\KellControls\KellControls\KellNode\obj\Debug\GenerateResource.read.1.tlog
+D:\2011\KellControls\KellControls\KellNode\obj\Debug\GenerateResource.write.1.tlog
+D:\2011\KellControls\KellControls\KellNode\obj\Debug\KellControls.TriStateTreeView.resources
+D:\2011\KellControls\KellControls\KellNode\obj\Debug\KellControls.TreeControl.resources
